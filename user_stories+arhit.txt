@@ -1,0 +1,47 @@
+##### User stories #####
+
+
+##User Stories Administrator##
+
+    As an administrator I would like to be able to add jobs, 
+by providing their job name, company, domain and experience.
+For each job, I want to assign some keywords that describe the
+job. The same keyword can be used for more than 1 job.
+
+    As an administrator, I would like to be able 
+to modify any job.
+
+As an administrator, I would like to be able to delete any job, 
+even if the position is not occupied.
+
+    As an administrator, I would like to be able to check status 
+of a job, by seeing its name, if is occupied, who applied to it 
+(email, phone number), when it was published, for how long, and 
+how much until will expire.
+
+------------    As an administrator, I would like to be able to view metrics 
+of a specific job. The metrics must be about how many times the 
+ad was viewed, how many times it was applied for that post, who 
+applied to that post, and the validity of the ad.
+
+
+##User Stories Utilizatori##
+
+As a user, I would like to be able to access the platform.
+
+As a user, I would like to be able to setup a profile, 
+consisting of email, phone number, name and address.
+
+As a user, I would like to be able to view all the jobs on 
+the site, together with their date of publishing.
+
+As a user, I would like to be able to apply to an available job.
+
+As a user, I should not be able to apply to a job that is already 
+filled.
+
+As a user, I would like to be able to see the jobs I am 
+currently applying.
+
+As a user, I would like to be able to see the jobs I have 
+applied.
