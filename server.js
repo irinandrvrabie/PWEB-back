@@ -11,6 +11,9 @@ connectDB();
 
 //Route files 
 const companies = require('./routes/company');
+const jobs = require('./routes/jobs');
+const profiles = require('./routes/profiles');
+const applications = require('./routes/applications');
 
 const app = express();
 
@@ -24,6 +27,9 @@ if (process.env.NODE_ENV === 'development') {
 
 //Mount routers
 app.use('/api/v1/companies', companies);
+app.use('/api/v1/job', jobs);
+app.use('/api/v1/application', applications);
+app.use('/api/v1/profile', profiles);
 
 const PORT = process.env.PORT || 5000;
 

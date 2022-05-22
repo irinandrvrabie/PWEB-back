@@ -1,4 +1,4 @@
-const Jobs = require('../models/Jobs');
+const Companies = require('../models/Companies');
 
 //@desc     Get all companies
 //@route    GET /api/v1/company
